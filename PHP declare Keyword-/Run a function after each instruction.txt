@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+declare(strict_types=1);
+function sum(int $a, int $b) {
+  return $a + $b;
+}
+
+// Throws a fatal error because '5' is a string instead of a number
+sum("5", 1);
+?>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+PHP Fatal error: strict_types declaration must be the very first statement in the script in /home/h0iQ5o/prog.php on line 6
